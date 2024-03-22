@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="img/logo.png" alt="Ground-Up Machine Learning" width="400"/>
-  <p><strong>Fast-Track to Machine Learning: A Curriculum Crafted for Newbies and Busy Bees</strong></p>
+  <img src="img/logo.png" alt="Ground-Up Machine Learning" width="500"/>
+  <br><br>
+  <p><strong>Fast-Track to Machine Learning:<br>A Curriculum Crafted for Newbies and Busy Bees</strong></p>
   <!-- Badges -->
   <img alt="GitHub License" src="https://img.shields.io/github/license/bedirt/Ground-Up-Machine-Learning">
   <!-- <img alt="Static Badge" src="https://img.shields.io/badge/Completed-1%2F4-FC8268?style=flat&labelColor=193A4C"> -->
