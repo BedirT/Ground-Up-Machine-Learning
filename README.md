@@ -24,7 +24,11 @@ Welcome to Ground-Up Machine Learning (GML) - a personal project that sprang fro
    - [Join the Journey](#join-the-journey)
 2. [Week 1: Introduction to ML & Supervised Learning - Regression](#week-1-introduction-to-ml--supervised-learning---regression)
    - [Lecture Table of Contents](#lecture-table-of-contents)
-   - [Week 1 Homework](#week-1-homework)
+   - [Homework Assignment: Building a Linear Regression Model from Scratch](#homework-assignment-building-a-linear-regression-model-from-scratch)
+3. [Week 2: Supervised Learning / Classification - From Basics to Deep Dive into Logistic Regression](#week-2-supervised-learning--classification---from-basics-to-deep-dive-into-logistic-regression)
+    - [Lecture Table of Contents](#lecture-table-of-contents-1)
+    - [Hands-On Lab Session: Multi-variable Logistic Regression Implementation](#hands-on-lab-session-multi-variable-logistic-regression-implementation)
+    - [Homework Assignment: Exploring a New Classification Algorithm](#homework-assignment-exploring-a-new-classification-algorithm)
 
 
 ## Introduction & Overview
@@ -118,8 +122,8 @@ I found that the best way to learn is by doing, so I am emphasizing that when te
     </td>
     <td rowspan="4">
       <ul>
-        <li>Lecture Notebook: <a href="week_1/GML_Lecture_1.ipynb">GML_Lecture_1.ipynb</a></li>
-        <li>Lab Notebook: <a href="week_1/GML_Lab_1.ipynb">GML_Lab_1.ipynb</a></li>
+        <li>Lecture Notebook: <a href="week_1/lecture_1.ipynb">lecture_1.ipynb</a></li>
+        <li>Lab Notebook: <a href="week_1/lab_1.ipynb">lab_1.ipynb</a></li>
         <li>Lab Dataset: <a href="week_1/customer_spending_behaviour.csv">customer_spending_behaviour.csv</a></li>
       </ul>
     </td>
@@ -160,13 +164,131 @@ I found that the best way to learn is by doing, so I am emphasizing that when te
   </tr>
 </table>
 
-### Week 1 Homework
+### Homework Assignment: Building a Linear Regression Model from Scratch
 
 **Task(s):**
 - Ground up coding of the linear regression model and all the bits and pieces we discussed in class using only python and numpy.
 - Using this model you built to train a regression model for a dataset you select. Use https://www.kaggle.com/datasets to find a dataset and a question you want to answer!
 - Then using your model, and some data cleaning answer your question.
 - Follow all the concepts you learned in class (and maybe even more) to solidify what we learned!
+
+## Week 2: Supervised Learning / Classification - From Basics to Deep Dive into Logistic Regression
+
+In the second week, we move towards understanding Classification. We will start by covering the foundational elements of classification problems, including decision boundaries and the difference between binary and multiclass classification. We will then take a deep dive into Logistic Regression, exploring its mathematical foundations and practical applications.
+
+The week will be rich with hands-on exercises to solidify these concepts, culminating in a homework assignment that challenges students to explore a new classification algorithm.
+
+### Lecture Table of Contents
+
+<table border="1">
+  <tr>
+    <th>Topic</th>
+    <th>Details</th>
+    <th>Resources: Lecture Notebook / Lab Notebook</th>
+  </tr>
+  <tr>
+    <td><strong>Introduction and Why Classification Matters</strong></td>
+    <td>
+      <ul>
+        <li><strong>Week 1 Recap</strong>: Brief recap of Week 1, emphasizing the transition from regression to classification.</li>
+        <li><strong>The Importance of Classification and Real-World Applications</strong>: Brief introduction to classification problems and their significance in various domains such as healthcare, finance, and technology.</li>
+      </ul>
+    </td>
+    <td rowspan="7">
+      <ul>
+        <li>Lecture Notebook: <a href="week_2/lecture_2.ipynb">Lecture_2.ipynb</a></li>
+        <li>Lab Notebook: <a href="week_2/lab_2.ipynb">Lab_2.ipynb</a></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Building Intuition for Classification</strong></td>
+    <td>
+      <ul>
+        <li><strong>Understanding Decision Boundaries</strong>: Introduction to the concept with visual aids.</li>
+        <li><strong>Binary vs. Multiclass Classification</strong>: Discussing the differences with examples.</li>
+        <li><strong>Different Classification Algorithms</strong>: High-level overview of popular algorithms.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Deep Dive into Logistic Regression</strong></td>
+    <td>
+      <ul>
+        <li><strong>Introduction to Logistic Regression</strong>: Detailed explanation focusing on its probabilistic nature.</li>
+        <li><strong>The Mathematics of Logistic Regression</strong>: Including logistic function, odds, and log-odds.</li>
+        <li><strong>Maximum Likelihood Estimation (MLE)</strong>: Explaining the concept and its implementation in logistic regression.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Gradient Descent for Optimization</strong></td>
+    <td>
+      <ul>
+        <li>Explanation of gradient descent as an optimization technique.</li>
+        <li>Detailing the cost function in logistic regression.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Model Evaluation Metrics</strong></td>
+    <td>
+      <ul>
+        <li><strong>Starting with Accuracy</strong>: Explanation and significance.</li>
+        <li><strong>Beyond Accuracy</strong>: Introduction to more advanced metrics like Precision, Recall, and ROC Curve.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Feature Handling and Preprocessing</strong> (Time Permitting)</td>
+    <td>
+      Importance of feature scaling and handling categorical variables in logistic regression.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Regularization and Avoiding Overfitting</strong> (Time Permitting)</td>
+    <td>
+      Discussion on overfitting and introduction to L1 and L2 regularization techniques.
+    </td>
+  </tr>
+</table>
+
+### Hands-On Lab Session: Multi-variable Logistic Regression Implementation
+
+**Objective:** Apply logistic regression to a multi-variable dataset to deepen understanding of feature handling, model implementation, and evaluation.
+
+**Tasks:**
+
+1. **Feature Preprocessing:** Discuss and implement preprocessing steps including feature scaling and handling categorical variables.
+2. **Logistic Regression Implementation:** Complete guided lab notebook code for logistic regression and gradient descent using vectorized implementations with NumPy.
+3. **Training and Evaluation:** Train the model on the training set and evaluate its performance on the test set using accuracy and at least one other metric (e.g., F1 score).
+4. **Visualization:** Visualize the decision boundary and model predictions on the test set to understand the model's performance. Also;
+   - Plot the ROC curve and calculate the AUC score.
+   - Investigate the learning curve to understand model performance.
+5. **Compare with Scikit-learn:** Implement logistic regression using Scikit-learn and compare the results with your implementation.
+
+### Homework Assignment: Exploring a New Classification Algorithm
+
+**Objective:** We will implement and evaluate a classification algorithm not covered in detail in class, such as k-Nearest Neighbors (k-NN) or a Decision Tree, on a multi-variable dataset. This assignment aims to deepen your understanding of classification algorithms and their practical applications along with research and reflection on the learning process.
+
+**Tasks:**
+
+1. **Research and Implementation:**
+   - Select a classification algorithm not covered in the lecture (e.g., SVM) and research its working principles, advantages, and limitations.
+   - Implement the selected algorithm to fit it on the same dataset used in the lab, following a similar structure to the logistic regression implementation. You should implement
+   - Train the model on the training set and evaluate its performance on the test set using accuracy and at least one other metric.
+   - Visualize the decision boundary of the model on the dataset.
+
+2. **Comparison and Reflection:**
+   - Compare the performance of your model to the logistic regression model from the lab assignment. This comparison should include aspects like accuracy, computational efficiency, and ease of interpretation.
+   - Write a short reflection of your learning experience, discussing the challenges you faced, how the chosen algorithm differs from logistic regression, and in what scenarios would you prefer one over the other.
+
+3. **Advanced Exploration (Optional):**
+   - Here are some optional tasks to explore advanced features of your chosen algorithm;
+      - Implement a hyperparameter tuning strategy (e.g., grid search or random search) to optimize the model's performance.
+      - Investigate the impact of different hyperparameters on the model's performance and visualize the results.
+      - Research and implement a more complex variant of the algorithm (e.g., kernel SVM) and compare its performance to the basic implementation.
+      - Try a different dataset and compare the performance of the two algorithms on this new dataset (you can use a dataset from sklearn.datasets or kaggle.com).
 
 ### Contributions
 
