@@ -5,7 +5,7 @@
   <!-- Badges -->
   <img alt="GitHub License" src="https://img.shields.io/github/license/bedirt/Ground-Up-Machine-Learning">
   <!-- <img alt="Static Badge" src="https://img.shields.io/badge/Completed-1%2F4-FC8268?style=flat&labelColor=193A4C"> -->
-  <img alt="Static Badge" src="https://img.shields.io/badge/Completed-1%2F4-60DDA0?style=flat&labelColor=193A4C">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Completed-2%2F4-60DDA0?style=flat&labelColor=193A4C">
 </div>
 
 Welcome to Ground-Up Machine Learning (GML) - a personal project that sprang from my desire to demystify the world of machine learning (ML) for friends and colleagues who expressed a keen interest but found themselves overwhelmed by the existing resources. This course is my attempt to break down ML into digestible, engaging, and accessible segments, ensuring that anyone, regardless of their background, can grasp the fundamentals of machine learning and see its beauty and utility in the modern world.
