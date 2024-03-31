@@ -5,7 +5,7 @@
   <!-- Badges -->
   <img alt="GitHub License" src="https://img.shields.io/github/license/bedirt/Ground-Up-Machine-Learning">
   <!-- <img alt="Static Badge" src="https://img.shields.io/badge/Completed-1%2F4-FC8268?style=flat&labelColor=193A4C"> -->
-  <img alt="Static Badge" src="https://img.shields.io/badge/Completed-2%2F4-60DDA0?style=flat&labelColor=193A4C">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Completed-3%2F4-60DDA0?style=flat&labelColor=193A4C">
 </div>
 
 Welcome to Ground-Up Machine Learning (GML) - a personal project that sprang from my desire to demystify the world of machine learning (ML) for friends and colleagues who expressed a keen interest but found themselves overwhelmed by the existing resources. This course is my attempt to break down ML into digestible, engaging, and accessible segments, ensuring that anyone, regardless of their background, can grasp the fundamentals of machine learning and see its beauty and utility in the modern world.
@@ -14,7 +14,6 @@ Welcome to Ground-Up Machine Learning (GML) - a personal project that sprang fro
 
 1. [Introduction & Overview](#introduction--overview)
    - [The Genesis of GML](#the-genesis-of-gml)
-   - [What We Hope to Achieve](#what-we-hope-to-achieve)
    - [Target Audience](#target-audience)
    - [Prerequisites](#prerequisites)
    - [Tools and Libraries](#tools-and-libraries)
@@ -35,47 +34,65 @@ Welcome to Ground-Up Machine Learning (GML) - a personal project that sprang fro
 
 ### The Genesis of GML
 
-The inception of GML was not a planned endeavor but a response to the genuine curiosity and, at times, frustration voiced by those around me. They sought a pathway into ML that didn't start with daunting mathematics or require sifting through countless hours of content to find practical, engaging learning experiences. As someone deeply passionate about making education accessible and enjoyable, I saw an opportunity to create something unique—a course that would serve as an introductory handshake to ML, offering a friendly welcome to beginners and a clear, concise overview for busy learners. Thus, GML was born, crafted from the ground up to introduce you to the marvels of machines that learn.
+Last month, my brother came to me and said that some of his friends and him are interested in learning about Machine Learning, and if I would be willing to hold classes for them and help out in giving some series of introductory lessons. Since I love teaching, and since my favorite crowd is people who are willingly putting themselves out there to learn, I jumped the gun and excitedly agreed.
 
-### What We Hope to Achieve
+While discussing the time requirements and how much time I can actually make them work on some extracurricular series (they are all already working hard on different things) we realized that there is little time and so much to learn.
 
-GML is designed to light a spark of interest in machine learning, providing you with:
-- A foundational understanding of ML concepts applied in real-world scenarios.
-- The ability to distinguish between different types of ML: Supervised, Unsupervised, and Reinforcement Learning.
-- Practical skills through hands-on experience with essential ML tools and libraries, applying your knowledge to real datasets.
+This led to me doing some research on how a busy person can get exposed to Machine Learning as a complete entity without getting lost in the details and without having any background. This forced math out the door for the most part, and we decided a commitment of 8 hours a week (2h lecture + 6h self study).
+
+In my research I couldn't find any resources that satisfies our criteria of having:
+- Structured short introduction to ML that explores various types.
+- Doesn't expect the students to have prior knowledge other than basics of python and high school math.
+- Focuses on providing only the necessary ML components and theory and jumping into a practical example.
+- Emphasizes on simple implementations and from scratch homeworks to enhance comprehension
+- Expects students to only commit 5-8 hours a week.
+
+So I created one for my class, hoping that I can use it for future as well!
 
 ### Target Audience
 
-This course is ideally suited for:
+This curriculum is mainly designed for:
 - Absolute beginners curious about machine learning.
-- Busy individuals seeking a streamlined yet meaningful overview of ML.
-- Educators looking for a structured guide to introduce ML concepts to students.
+- Busy people looking for a streamlined yet meaningful overview of ML.
+- Educators looking for a structured guide to introduce ML concepts to students (Could also be the starting point).
+
+I think it's important to mention that the topics are not really designed for fully self-study, so a teacher or group study might be necessary. See [Course Structure](#course-structure) for more information on that.
 
 ### Prerequisites
 
-A foundational knowledge of Python is expected, as the course will briefly touch upon Python basics but primarily focus on applying it within ML contexts. Additionally, while not math-heavy, a basic understanding of calculus and linear algebra can enrich your learning experience. Nonetheless, these are not dealbreakers; with a willingness to learn and explore these topics on your own, you'll find this course both manageable and rewarding.
+- A **foundational knowledge of Python** is expected, as the course will briefly touch upon Python basics but primarily focus on applying it within ML context.
+- While not math-heavy, a **basic understanding of calculus and linear algebra** can help your learning experience.
+
+> [!NOTE]
+> Nonetheless, none are dealbreakers; with a willingness to learn and explore these topics on your own, you'll find this curriculum both manageable and rewarding. It might just take a little longer and a little more self-study to understand some parts.
 
 ### Tools and Libraries
 
-We'll be leveraging several key Python tools and libraries throughout GML:
+Throughout the lectures we leverage several Python tools and libraries:
 - **Python:** The primary language of instruction.
 - **NumPy and Pandas:** For numerical computing and data manipulation.
 - **Matplotlib/Seaborn:** For visualizing data.
 - **Scikit-learn:** For easy-to-use ML models.
 
+It's not really necessary to be familiar with any of these libraries for the course though.
+
 ### Course Structure
 
-GML unfolds over four weeks, each dedicated to a different facet of machine learning:
+GML unfolds over four weeks, each dedicated to a different part of machine learning:
 1. **Introduction to ML & Supervised Learning - Regression**
 2. **Supervised Learning - Classification**
 3. **Unsupervised Learning & Clustering**
 4. **Introduction to Reinforcement Learning**
 
-Each week includes a lecture guide and lab materials designed not as exhaustive resources but as interactive guides akin to slides that a teacher can use to lead discussions, demonstrations, and hands-on projects. The course is crafted with the classroom in mind, requiring an instructor to breathe life into the content. As such, it's perfect for educators or study groups seeking a structured path to explore ML together.
+> [!IMPORTANT]
+> Each week includes a lecture guide and lab materials designed not as exhaustive resources but as interactive guides akin to slides that a teacher can use to lead discussions, demonstrations, and hands-on projects. The course is crafted with the classroom in mind, requiring an instructor to breathe life into the content. As such, it's perfect for educators or study groups seeking a structured path to explore ML together.
 
 ### Expected Effort
 
-To fully benefit from what GML offers, participants are expected to commit to approximately 2-3 hours of lecture time and 6-7 hours of self-study each week. This self-study time includes going through lab materials, completing assignments, and additional reading or practice as needed. The weekly structure is flexible and can be adjusted based on individual or group needs, making the course adaptable to different learning environments.
+To fully benefit from this curriculum, students/participants are expected to commit to approximately 2-3 hours of lecture time (really depends on the teacher) and 6-7 hours of self-study each week. This self-study time includes going through lab materials, completing assignments, and additional reading or practice as needed. The weekly structure is flexible and can be adjusted based on individual or group needs, making the course adaptable to different learning environments.
+
+> [!NOTE]
+> I essentially envisioned the labs as a second part of the class that we go through with students but that was unfortunately not possible since the lectures already took a little over 2 hours and my students couldn't stay longer due to time differences.
 
 ### Ideal Way to Follow the Curriculum
 
@@ -289,6 +306,78 @@ The week will be rich with hands-on exercises to solidify these concepts, culmin
       - Investigate the impact of different hyperparameters on the model's performance and visualize the results.
       - Research and implement a more complex variant of the algorithm (e.g., kernel SVM) and compare its performance to the basic implementation.
       - Try a different dataset and compare the performance of the two algorithms on this new dataset (you can use a dataset from sklearn.datasets or kaggle.com).
+
+## Week 3: Unsupervised Learning & Clustering
+
+In the third week, we move towards understanding how we approach Machine Learning when we are not exposed to the answers of the data (labels). Like the previous weeks we start with the basics of Unsupervised Learning, focusing on Clustering, and then move on to a deep dive into K-Means Clustering - one of the most popular clustering algorithms.
+
+Later if we got time we will also discuss the concept of Dimensionality Reduction and how it can be used to reduce the complexity of the data.
+
+I wanted to keep this week shorter and try having mostly learn + apply style of lecture. We will have a section and then students will be sent to rooms/groups to complete some tasks (coding for most parts).
+
+### Lecture Table of Contents
+
+<table border="1">
+  <tr>
+    <th>Topic</th>
+    <th>Details</th>
+    <th>Resources: Lecture Notebook / Lab Notebook</th>
+  </tr>
+  <tr>
+    <td><strong>Introduction to Unsupervised Learning</strong></td>
+    <td>
+      <ul>
+        <li><strong>Basics of Unsupervised Learning</strong>: Introduction to ML without labeled data.</li>
+        <li><strong>Different Types of Unsupervised Learning</strong>: Talking a bit about Clustering, Dimensionality Reduction, and Association Rule Learning.</li>
+        <li><strong>Real-world Applications</strong>: Discussing the significance of unsupervised learning in various domains.</li>
+      </ul>
+    </td>
+    <td rowspan="7">
+      <ul>
+        <li>Lecture Notebook: <a href="week_3/lecture_3.ipynb">Lecture_3.ipynb</a></li>
+        <li>Lab Notebook: <a href="week_3/lab_3.ipynb">Lab_3.ipynb</a></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Exploring Data with Clustering</strong></td>
+    <td>
+      <ul>
+        <li><strong>Introduction to Clustering</strong>: Basics of clustering and its applications.</li>
+        <li><strong>Types of Clustering</strong>: Overview of Hierarchical Clustering, K-Means Clustering, and DBSCAN.</li>
+        <li><strong>Real-world Examples</strong>: Discussing how clustering is used in customer segmentation, anomaly detection, and more.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Deep Dive into K-Means Clustering</strong></td>
+    <td>
+      <ul>
+        <li><strong>Introduction to K-Means</strong>: Detailed explanation of the algorithm and its working principles.</li>
+        <li><strong>Choosing the Right Number of Clusters</strong>: Discussing the elbow method and silhouette score for optimal cluster selection.</li>
+        <li><strong>Implementation</strong>: Basic implementation using simple python and numpy.
+        <li><strong>Model Evaluation</strong>: Exploring metrics like inertia and silhouette score to evaluate model performance.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Dimensionality Reduction Explained</strong></td>
+    <td>
+      <ul>
+        <li><strong>Introduction to Idea</strong>: Discussion on how dimensionality reduction works.</li>
+        <li><strong>PCA, t-SNE and UMAP basics</strong>: Introducing some very common dimensionality reduction techniques and explaining how they work.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### Hands-On Lab Session: ...
+
+TBD
+
+### Homework Assignment: ...
+
+TBD
 
 ### Contributions
 
